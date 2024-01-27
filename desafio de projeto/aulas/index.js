@@ -1,13 +1,21 @@
-// Festival de Caçada para Classificação final do Torneio 
-console.log("Caçada Mortal")
+// Classificação do nível de Herói 
 
-let nomeDosJogadores = [" Touro Mortal" , "Fada da Morte" , "Ninfa do Mar" , "Pistoleiro" , " Mago Vermelho " ]
-let timeDosJogadores = [ 
-    [" Touro Mortal" , "M" , 1]
-    [" Fada da Morte" , "F" , 1 ]
-    [" Ninfa do Mar" , "F" , 2  ]
-    ["Pistoleiro" , "M" , 3 ]
-    [" Mago Vermelho" , " M" , 3 ]
-]
+let nomeHeroi = "Rei Arthur"
+let nivelHeroi = 9.002
 
-console.log(" O Jogador" + timeDosJogadores >= 3 `sexo do Jogador${"M" || "F"}`) 
+if(nivelHeroi >= 5.001 && nivelHeroi <= 7.000){
+    console.log( " O nome do Herói é " + nomeHeroi + " Está no Nível Ouro");
+}
+else if (nivelHeroi >= 7.001 && nivelHeroi <= 8.000){
+    console.log("O nome do Herói é " + " Está no Nível Platina")
+}
+
+else if (nivelHeroi >= 8.001 && nivelHeroi <= 9.000) {
+    console.log("O nome do Herói é " + nomeHeroi + ". Está no Nível Imortal");
+  }
+  else if (nivelHeroi >= 9.001 && nivelHeroi <= 10.000) {
+    console.log("O nome do Herói é " + nomeHeroi + ". Está no Nível Radiante");
+  } 
+  else {
+    console.log("Nível não reconhecido");
+  }
