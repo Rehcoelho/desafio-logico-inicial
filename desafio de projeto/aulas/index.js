@@ -1,7 +1,7 @@
 // Classificação do nível de Herói 
 
 let nomeHeroi = "Rei Arthur"
-let nivelHeroi = 9.002
+let nivelHeroi = 8.999
 
 if(nivelHeroi >= 5.001 && nivelHeroi <= 7.000){
     console.log( " O nome do Herói é " + nomeHeroi + " Está no Nível Ouro");
